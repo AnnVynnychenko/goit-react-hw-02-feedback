@@ -1,0 +1,23 @@
+.statistics {
+  box-sizing: border-box;
+  width: 340px;
+  height: 100%;
+  margin: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid rgb(225, 223, 223);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.statTitle {
+  margin-top: 0;
+}
+
+.statItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.statNumber {
+  font-weight: 600;
+  margin-left: 10px;
+}
